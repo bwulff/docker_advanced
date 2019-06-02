@@ -5,6 +5,6 @@ RUN pip install -r /tmp/requirements.txt
 
 ADD app.py /
 
-EXPOSE 5000
+EXPOSE 80
 
 ENTRYPOINT python /app.py
